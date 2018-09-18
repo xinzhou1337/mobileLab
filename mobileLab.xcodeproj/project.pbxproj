@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32D48F8214BB152003C57FB /* PasswordSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32D48F7214BB152003C57FB /* PasswordSelectViewController.xib */; };
+		C340C80821494DAB009044EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C340C80721494DAB009044EC /* AppDelegate.m */; };
+		C340C81021494DAD009044EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C340C80F21494DAD009044EC /* Assets.xcassets */; };
+		C340C81321494DAD009044EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C340C81121494DAD009044EC /* LaunchScreen.storyboard */; };
+		C340C81621494DAD009044EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C340C81521494DAD009044EC /* main.m */; };
+		C340C8262149533B009044EC /* PasswordSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C340C8252149533B009044EC /* PasswordSelectViewController.m */; };
+		C340C82A2149550D009044EC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C340C8282149550D009044EC /* libsqlite3.tbd */; };
+		C340C82B2149550D009044EC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C340C8292149550D009044EC /* libsqlite3.0.tbd */; };
+		C340C82F2149558C009044EC /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C340C82E2149558C009044EC /* DBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C32D48F7214BB152003C57FB /* PasswordSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordSelectViewController.xib; sourceTree = "<group>"; };
+		C340C80321494DAB009044EC /* mobileLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C340C80621494DAB009044EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C340C80721494DAB009044EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C340C80F21494DAD009044EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C340C81221494DAD009044EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C340C81421494DAD009044EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C340C81521494DAD009044EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C340C8242149533B009044EC /* PasswordSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordSelectViewController.h; sourceTree = "<group>"; };
+		C340C8252149533B009044EC /* PasswordSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordSelectViewController.m; sourceTree = "<group>"; };
+		C340C8282149550D009044EC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C340C8292149550D009044EC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C340C82D2149558C009044EC /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		C340C82E2149558C009044EC /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C340C80021494DAB009044EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C340C82A2149550D009044EC /* libsqlite3.tbd in Frameworks */,
+				C340C82B2149550D009044EC /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32D48F6214BB13B003C57FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C32D48F7214BB152003C57FB /* PasswordSelectViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C32D48F9214BBE1F003C57FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C32D48FA214BBE27003C57FB /* CategoriesCollection */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C32D48FA214BBE27003C57FB /* CategoriesCollection */ = {
+			isa = PBXGroup;
+			children = (
+				C32D48FB214BBE2F003C57FB /* New Group */,
+			);
+			path = CategoriesCollection;
+			sourceTree = "<group>";
+		};
+		C32D48FB214BBE2F003C57FB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C340C7FA21494DAB009044EC = {
+			isa = PBXGroup;
+			children = (
+				C340C80521494DAB009044EC /* mobileLab */,
+				C340C80421494DAB009044EC /* Products */,
+				C340C8272149550C009044EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C340C80421494DAB009044EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C340C80321494DAB009044EC /* mobileLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C340C80521494DAB009044EC /* mobileLab */ = {
+			isa = PBXGroup;
+			children = (
+				C340C820214952CF009044EC /* Modules */,
+				C340C80621494DAB009044EC /* AppDelegate.h */,
+				C340C80721494DAB009044EC /* AppDelegate.m */,
+				C340C80F21494DAD009044EC /* Assets.xcassets */,
+				C340C81121494DAD009044EC /* LaunchScreen.storyboard */,
+				C340C81421494DAD009044EC /* Info.plist */,
+				C340C81521494DAD009044EC /* main.m */,
+			);
+			path = mobileLab;
+			sourceTree = "<group>";
+		};
+		C340C820214952CF009044EC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C32D48F9214BBE1F003C57FB /* Categories */,
+				C340C82C2149551C009044EC /* SQL */,
+				C340C821214952DB009044EC /* PasswordSelect */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C340C821214952DB009044EC /* PasswordSelect */ = {
+			isa = PBXGroup;
+			children = (
+				C32D48F6214BB13B003C57FB /* View */,
+				C340C82321495319009044EC /* Service */,
+				C340C8222149530A009044EC /* Controller */,
+			);
+			path = PasswordSelect;
+			sourceTree = "<group>";
+		};
+		C340C8222149530A009044EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C340C8242149533B009044EC /* PasswordSelectViewController.h */,
+				C340C8252149533B009044EC /* PasswordSelectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C340C82321495319009044EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C340C8272149550C009044EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C340C8292149550D009044EC /* libsqlite3.0.tbd */,
+				C340C8282149550D009044EC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C340C82C2149551C009044EC /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				C340C82D2149558C009044EC /* DBManager.h */,
+				C340C82E2149558C009044EC /* DBManager.m */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C340C80221494DAB009044EC /* mobileLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C340C81921494DAD009044EC /* Build configuration list for PBXNativeTarget "mobileLab" */;
+			buildPhases = (
+				C340C7FF21494DAB009044EC /* Sources */,
+				C340C80021494DAB009044EC /* Frameworks */,
+				C340C80121494DAB009044EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobileLab;
+			productName = mobileLab;
+			productReference = C340C80321494DAB009044EC /* mobileLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C340C7FB21494DAB009044EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ilya Zimonin";
+				TargetAttributes = {
+					C340C80221494DAB009044EC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C340C7FE21494DAB009044EC /* Build configuration list for PBXProject "mobileLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C340C7FA21494DAB009044EC;
+			productRefGroup = C340C80421494DAB009044EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C340C80221494DAB009044EC /* mobileLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C340C80121494DAB009044EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32D48F8214BB152003C57FB /* PasswordSelectViewController.xib in Resources */,
+				C340C81321494DAD009044EC /* LaunchScreen.storyboard in Resources */,
+				C340C81021494DAD009044EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C340C7FF21494DAB009044EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C340C81621494DAD009044EC /* main.m in Sources */,
+				C340C80821494DAB009044EC /* AppDelegate.m in Sources */,
+				C340C8262149533B009044EC /* PasswordSelectViewController.m in Sources */,
+				C340C82F2149558C009044EC /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C340C81121494DAD009044EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C340C81221494DAD009044EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C340C81721494DAD009044EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C340C81821494DAD009044EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C340C81A21494DAD009044EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mobileLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mobileLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C340C81B21494DAD009044EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mobileLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mobileLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C340C7FE21494DAB009044EC /* Build configuration list for PBXProject "mobileLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C340C81721494DAD009044EC /* Debug */,
+				C340C81821494DAD009044EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C340C81921494DAD009044EC /* Build configuration list for PBXNativeTarget "mobileLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C340C81A21494DAD009044EC /* Debug */,
+				C340C81B21494DAD009044EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C340C7FB21494DAB009044EC /* Project object */;
+}
